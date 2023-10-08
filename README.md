@@ -27,7 +27,7 @@ We also welcome contributions to this repo. Please submit a pull request if you 
 
 - [x] Add venue, publication time, PDF link
 
-- [ ] Add code link (if available)
+- [x] Add code link (if official implementation available)
 
 - [ ] Add newly published papers in 2023
 
@@ -35,6 +35,10 @@ We also welcome contributions to this repo. Please submit a pull request if you 
 
 
 ## Papers
+
+> **[[PDF]]()** - PDF link
+> **[[Code]]()** - official code link
+> ❎ - not cited in the survey paper
 
 ### Surveys
 
@@ -128,7 +132,7 @@ ViewAL: Active Learning with Viewpoint Entropy for Semantic Segmentation
 **[CVPR'20]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)** **[[Code]](https://github.com/nihalsid/ViewAL)**
 
 Learning Loss for Active Learning  
-**[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.pdf)** **[[Unofficial Code]](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning)**
+**[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.pdf)**
 
 Reducing Uncertainty in Undersampled MRI Reconstruction with Active Acquisition  
 **[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Reducing_Uncertainty_in_Undersampled_MRI_Reconstruction_With_Active_Acquisition_CVPR_2019_paper.pdf)**
@@ -140,8 +144,7 @@ Quantization of Fully Convolutional Networks for Accurate Biomedical Image Segme
 **[CVPR'18]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Quantization_of_Fully_CVPR_2018_paper.pdf)**
 
 Fine-Tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally  
-**[CVPR'17]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)** **[[Unofficial Code]](https://github.com/JimmyLauren/entroy_diversity)**
-
+**[CVPR'17]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)** **[[Code]](https://github.com/MrGiovanni/Active-Learning)**
 
 ### International Conference on Computer Vision (ICCV)
 Adaptive Superpixel for Active Learning in Semantic Segmentation  
@@ -273,11 +276,14 @@ Active Learning for Convolutional Neural Networks: A Core-Set Approach
 
 
 ### Advances in Neural Information Processing Systems (NeurIPS)
+Towards Free Data Selection with General-Purpose Models
+**[NeurIPS'23]** **[[PDF]](https://browse.arxiv.org/pdf/2309.17342.pdf)** **[[Code]](https://github.com/yichen928/FreeSel)**
+
 Active Learning Through a Covering Lens  
-**[NeurIPS'22]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/8c64bc3f7796d31caa7c3e6b969bf7da-Paper-Conference.pdf)**
+**[NeurIPS'22]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/8c64bc3f7796d31caa7c3e6b969bf7da-Paper-Conference.pdf)** **[[Code]](https://github.com/avihu111/TypiClust)**
 
 Gone Fishing: Neural Active Learning with Fisher Embeddings  
-**[NeurIPS'21]** **[[PDF]](https://proceedings.neurips.cc/paper/2021/file/4afe044911ed2c247005912512ace23b-Paper.pdf)**
+**[NeurIPS'21]** **[[PDF]](https://proceedings.neurips.cc/paper/2021/file/4afe044911ed2c247005912512ace23b-Paper.pdf)** **[[Code]](https://github.com/JordanAsh/badge)**
 
 Batch Active Learning at Scale  
 **[NeurIPS'21]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2021/file/64254db8396e404d9223914a0bd355d2-Paper.pdf)**
@@ -286,18 +292,18 @@ SIMILAR: Submodular Information Measures Based Active Learning in Realistic Scen
 **[NeurIPS'21]** **[[PDF]](https://proceedings.neurips.cc/paper/2021/file/9af08cda54faea9adf40a201794183cf-Paper.pdf)**
 
 Experimental Design for MRI by Greedy Policy Search  
-**[NeurIPS'20]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2020/file/daed210307f1dbc6f1dd9551408d999f-Paper.pdf)**
+**[NeurIPS'20]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2020/file/daed210307f1dbc6f1dd9551408d999f-Paper.pdf)** **[[Code]](https://github.com/Timsey/pg_mri)**
 
 BatchBALD: Efficient and Diverse Batch Acquisition for Deep Bayesian Active Learning  
-**[NeurIPS'19]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2019/file/95323660ed2124450caaac2c46b5ed90-Paper.pdf)**
+**[NeurIPS'19]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2019/file/95323660ed2124450caaac2c46b5ed90-Paper.pdf)** **[[Code]](https://github.com/BlackHC/BatchBALD)**
 
 
 ### International Conference on Machine Learning (ICML)
 Active Learning on a Budget: Opposite Strategies Suit High and Low Budgets  
-**[ICML'22]** **[[PDF]](https://proceedings.mlr.press/v162/hacohen22a/hacohen22a.pdf)**
+**[ICML'22]** **[[PDF]](https://proceedings.mlr.press/v162/hacohen22a/hacohen22a.pdf)** **[[Code]](https://github.com/avihu111/TypiClust)**
 
 Bayesian Generative Active Deep Learning  
-**[ICML'19]** **[[PDF]](http://proceedings.mlr.press/v97/tran19a/tran19a.pdf)**
+**[ICML'19]** **[[PDF]](http://proceedings.mlr.press/v97/tran19a/tran19a.pdf)** **[[Code]](https://github.com/toantm/BGADL)**
 
 Deep Bayesian Active Learning with Image Data  
 **[ICML'17]** **[[PDF]](http://proceedings.mlr.press/v70/gal17a/gal17a.pdf)**
@@ -308,10 +314,10 @@ PRISM: A Rich Class of Parameterized Submodular Information Measures for Guided 
 **[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/21264/21013)**
 
 Boosting Active Learning via Improving Test Performance  
-**[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/20834/20593)**
+**[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/20834/20593)** **[[Code]](https://github.com/wangt0716/AL-GradNorm)**
 
 Active Learning for Domain Adaptation: An Energy-Based Approach  
-**[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/20850/20609)**
+**[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/20850/20609)** **[[Code]](https://github.com/BIT-DA/EADA)**
 
 An Annotation Sparsification Strategy for 3D Medical Image Segmentation via Representative Selection and Self-Training  
 **[AAAI'20]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/6175/6031)**
@@ -322,12 +328,12 @@ Biomedical Image Segmentation via Representative Annotation
 
 ### International Joint Conference on Artificial Intelligence (IJCAI)
 Deep Active Learning with Adaptive Acquisition  
-**[IJCAI'19]** **[[PDF]](https://www.ijcai.org/proceedings/2019/0343.pdf)**
+**[IJCAI'19]** **[[PDF]](https://www.ijcai.org/proceedings/2019/0343.pdf)** **[[Code]](https://github.com/manuelhaussmann/ral)**
 
 
 ### International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
 OpenAL: An Efficient Deep Active Learning Framework for Open-Set Pathology Image Classification  
-**[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_1)**
+**[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_1)** **[[Code]](https://github.com/miccaiif/OpenAL)**
 
 Discrepancy-Based Active Learning for Weakly Supervised Bleeding Segmentation in Wireless Capsule Endoscopy Images  
 **[MICCAI'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_3)**
@@ -342,13 +348,13 @@ Self-Learning and One-Shot Learning Based Single-Slice Annotation for 3D Medical
 **[MICCAI'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-16452-1_24)**
 
 Annotation-Efficient Cell Counting  
-**[MICCAI'21]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_39)**
+**[MICCAI'21]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-87237-3_39)** **[[Code]](https://github.com/cvbmi-research/AnnotationEfficient-CellCounting)**
 
 Partially-Supervised Learning for Vessel Segmentation in Ocular Images  
 **[MICCAI'21]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-87193-2_26)**
 
 Quality-Aware Memory Network for Interactive Volumetric Image Segmentation  
-**[MICCAI'21]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-87196-3_52)**
+**[MICCAI'21]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-87196-3_52)** **[[Code]](https://github.com/lingorX/Mem3D)**
 
 Suggestive Annotation of Brain Tumour Images with Gradient-Guided Sampling  
 **[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59719-1_16)**
@@ -360,10 +366,10 @@ Deep Active Learning for Effective Pulmonary Nodule Detection
 **[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59725-2_59)**
 
 Learning Guided Electron Microscopy with Active Acquisition  
-**[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_8)**
+**[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_8)** **[[Code]](https://github.com/lumimim/learning-guided-SEM)**
 
 Active MR K-Space Sampling with Reinforcement Learning  
-**[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_3)**
+**[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59713-9_3)** **[[Code]](https://github.com/facebookresearch/active-mri-acquisition)**
 
 Deep Active Learning for Breast Cancer Segmentation on Immunohistochemistry Images  
 **[MICCAI'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-59722-1_49)**
@@ -386,7 +392,7 @@ Suggestive Annotation: A Deep Active Learning Framework for Biomedical Image Seg
 
 ### International Conference on Medical Imaging with Deep Learning (MIDL)
 Making Your First Choice: To Address Cold Start Problem in Vision Active Learning  
-**[MIDL'23]** **[[PDF]](https://openreview.net/pdf?id=5iSBMWm3ln)**
+**[MIDL'23]** **[[PDF]](https://openreview.net/pdf?id=5iSBMWm3ln)** **[[Code]](https://github.com/cliangyu/CSVAL)**
 
 On Learning Adaptive Acquisition Policies for Undersampled Multi-Coil MRI Reconstruction  
 **[MIDL'22]** **[[PDF]](https://proceedings.mlr.press/v172/bakker22a/bakker22a.pdf)**
@@ -410,28 +416,28 @@ CLINICAL: Targeted Active Learning for Imbalanced Medical Image Classification
 
 ### Annual Meeting of the Association for Computational Linguistics (ACL)
 Mind Your Outliers! Investigating the Negative Impact of Outliers on Active Learning for Visual Question Answering  
-**[ACL'21]** **[[PDF]](https://aclanthology.org/2021.acl-long.564.pdf)**
+**[ACL'21]** **[[PDF]](https://aclanthology.org/2021.acl-long.564.pdf)** **[[Code]](https://github.com/siddk/vqa-outliers)**
 
 
 ### Conference on Empirical Methods in Natural Language Processing (EMNLP)
 Cold-Start Active Learning through Self-Supervised Language Modeling  
-**[EMNLP'20]** **[[PDF]](https://aclanthology.org/2020.emnlp-main.637.pdf)**
+**[EMNLP'20]** **[[PDF]](https://aclanthology.org/2020.emnlp-main.637.pdf)** **[[Code]](https://github.com/forest-snow/alps)**
 
 
 ### International Conference on Artificial Intelligence and Statistics (AISTATS)
 Deep Active Learning: Unified and Principled Method for Query and Training  
-**[AISTATS'20]** **[[PDF]](http://proceedings.mlr.press/v108/shui20a/shui20a.pdf)**
+**[AISTATS'20]** **[[PDF]](http://proceedings.mlr.press/v108/shui20a/shui20a.pdf)** **[[Code]](https://github.com/cjshui/WAAL)**
 
 
 ### IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 Multiple Instance Differentiation Learning for Active Object Detection  
-**[TPAMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10129096)**
+**[TPAMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10129096)** **[[Code]](https://github.com/WanFang13/MIDL)**
 
 Contrastive Active Learning under Class Distribution Mismatch  
-**[TPAMI 2022]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9816025)**
+**[TPAMI 2022]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9816025)** **[[Code]](https://github.com/RUC-DWBI-ML/CCAL)**
 
 Active Image Synthesis for Efficient Labeling  
-**[TPAMI 2021]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9091327)**
+**[TPAMI 2021]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9091327)** **[[Code]](https://github.com/cjshui/WAAL)**
 
 A Probabilistic Active Learning Algorithm Based on Fisher Information Ratio  
 **[TPAMI 2018]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8016395)**
@@ -450,18 +456,18 @@ Suggestive Annotation of Brain MR Images with Gradient-Guided Sampling
 **[MedIA 2022]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841522000263)**
 
 Volumetric Memory Network for Interactive Medical Image Segmentation  
-**[MedIA 2022]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841522002316)**
+**[MedIA 2022]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841522002316)** **[[Code]](https://github.com/lingorX/Mem3D)**
 
 COVID-AL: The Diagnosis of COVID-19 with Deep Active Learning  
 **[MedIA 2021]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841520302772)**
 
 Active, Continual Fine Tuning of Convolutional Neural Networks for Reducing Annotation Efforts  
-**[MedIA 2021]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841521000438)**
+**[MedIA 2021]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841521000438)** **[[Code]](https://github.com/MrGiovanni/Active-Learning)**
 
 
 ### IEEE Transactions on Medical Imaging (TMI)
 Which Pixel to Annotate: A Label-Efficient Nuclei Segmentation Framework  
-**[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9946007)**
+**[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9946007)** **[[Code]](https://github.com/Lewislou/Label-Effcient-Nuclei-Segmentation)**
 
 PathAL: An Active Learning Framework for Histopathology Image Analysis  
 **[TMI 2022]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9648200)**
@@ -487,7 +493,7 @@ Intelligent Labeling Based on Fisher Information for Medical Image Segmentation 
 
 ### IEEE Journal of Biomedical and Health Informatics (JBHI)
 DSAL: Deeply Supervised Active Learning from Strong and Weak Labelers for Biomedical Image Segmentation  
-**[JBHI 2021]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9326423)**
+**[JBHI 2021]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9326423)** **[[Code]](https://github.com/jacobzhaoziyuan/DSAL)**
 
 Label-Efficient Breast Cancer Histopathological Image Classification  
 **[JBHI 2019]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8561292)**
@@ -518,28 +524,25 @@ Density-Based One-Shot Active Learning for Image Segmentation
 
 ### arXiv
 Active Self-Training for Weakly Supervised 3D Scene Semantic Segmentation  
-**[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2209.07069.pdf)**
+**[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2209.07069.pdf)** **[[Code]](https://github.com/GengxinLiu/ActiveST)**
 
 Active CT Reconstruction with a Learned Sampling Policy  
 **[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2211.01670.pdf)**
 
-Towards General and Efficient Active Learning  
-**[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2112.07963.pdf)**
-
 A simple baseline for low-budget active learning  
-**[arxiv 2021]** **[[PDF]](https://arxiv.org/pdf/2110.12033.pdf)**
+**[arxiv 2021]** **[[PDF]](https://arxiv.org/pdf/2110.12033.pdf)** **[[Code]](https://github.com/UCDvision/low-budget-al)**
 
 Self-supervised deep active accelerated MRI  
 **[arxiv 2019]** **[[PDF]](https://arxiv.org/pdf/1901.04547.pdf)**
 
 Batch Active Learning Using Determinantal Point Processes  
-**[arXiv 2019]** **[[PDF]](https://arxiv.org/pdf/1906.07975.pdf)**
+**[arXiv 2019]** **[[PDF]](https://arxiv.org/pdf/1906.07975.pdf)** **[[Code]](https://github.com/Stanford-ILIAD/DPP-Batch-Active-Learning)**
 
 Discriminative Active Learning  
-**[arXiv 2019]** **[[PDF]](https://arxiv.org/pdf/1907.06347.pdf)**
+**[arXiv 2019]** **[[PDF]](https://arxiv.org/pdf/1907.06347.pdf)** **[[Code]](https://github.com/dsgissin/DiscriminativeActiveLearning)**
 
 Adversarial Active Learning for Deep Networks: A Margin Based Approach  
 **[arXiv 2018]** **[[PDF]](https://arxiv.org/pdf/1802.09841.pdf)**
 
 Generative Adversarial Active Learning  
-**[arXiv 2017]** **[[PDF]](https://arxiv.org/pdf/1702.07956.pdf)**
+**[arXiv 2017]** **[[PDF]](https://arxiv.org/pdf/1702.07956.pdf)** **[[Code]](https://github.com/billzhaox/PyTorch-GAAL)**
