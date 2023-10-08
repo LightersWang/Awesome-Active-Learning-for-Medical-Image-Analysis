@@ -7,7 +7,7 @@ In this repo, we provide a paper list of active learning in the fields of medica
 
 This repo is mainly based on the following survey:  
 **[A comprehensive survey on deep active learning and its applications in medical image analysis]()**  
-_Haoran Wang, Qiuye Jin, Siyu Liu, Shiman Li, Manning Wang*, Zhijian Song*_
+_Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_
 
 If you find this repo or this survey paper helpful, please consider citing:
 
@@ -15,7 +15,7 @@ If you find this repo or this survey paper helpful, please consider citing:
 TBD
 ```
 
-Newly published papers and missing papers of related topics will be added to this repo. Currently, I am actively updating this repo. 
+Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added to this repo.
 
 We also welcome contributions to this repo. Please submit a pull request if you want to contribute!
 
@@ -34,7 +34,7 @@ We also welcome contributions to this repo. Please submit a pull request if you 
 - [ ] Add related missing papers
 
 
-## Included Papers
+## Papers
 
 ### Surveys
 
@@ -65,70 +65,70 @@ Active learning literature survey
 
 ### IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
 Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm  
-**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Active_Finetuning_Exploiting_Annotation_Budget_in_the_Pretraining-Finetuning_Paradigm_CVPR_2023_paper.pdf)**
+**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Active_Finetuning_Exploiting_Annotation_Budget_in_the_Pretraining-Finetuning_Paradigm_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/yichen928/ActiveFT)**
 
 Bi3D: Bi-Domain Active Learning for Cross-Domain 3D Object Detection  
-**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Bi3D_Bi-Domain_Active_Learning_for_Cross-Domain_3D_Object_Detection_CVPR_2023_paper.pdf)**
+**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Yuan_Bi3D_Bi-Domain_Active_Learning_for_Cross-Domain_3D_Object_Detection_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/JiakangYuan/Bi3D)**
 
 Divide and Adapt: Active Domain Adaptation via Customized Learning  
-**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Divide_and_Adapt_Active_Domain_Adaptation_via_Customized_Learning_CVPR_2023_paper.pdf)**
+**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Huang_Divide_and_Adapt_Active_Domain_Adaptation_via_Customized_Learning_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/Duojun-Huang/DiaNA-CVPR2023)**
 
 Box-Level Active Detection  
-**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lyu_Box-Level_Active_Detection_CVPR_2023_paper.pdf)**
+**[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lyu_Box-Level_Active_Detection_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/lyumengyao/blad)**
 
 Meta Agent Teaming Active Learning for Pose Estimation  
 **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Meta_Agent_Teaming_Active_Learning_for_Pose_Estimation_CVPR_2022_paper.pdf)**
 
 Towards Robust and Reproducible Active Learning Using Neural Networks  
-**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Munjal_Towards_Robust_and_Reproducible_Active_Learning_Using_Neural_Networks_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Munjal_Towards_Robust_and_Reproducible_Active_Learning_Using_Neural_Networks_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/PrateekMunjal/TorchAL)**
 
 Active Learning by Feature Mixing  
-**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Parvaneh_Active_Learning_by_Feature_Mixing_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Parvaneh_Active_Learning_by_Feature_Mixing_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/AminParvaneh/alpha_mix_active_learning)**
 
 Which Images To Label for Few-Shot Medical Landmark Detection?  
 **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Quan_Which_Images_To_Label_for_Few-Shot_Medical_Landmark_Detection_CVPR_2022_paper.pdf)**
 
 Towards Fewer Annotations: Active Learning via Region Impurity and Prediction Uncertainty for Domain Adaptive Semantic Segmentation  
-**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Towards_Fewer_Annotations_Active_Learning_via_Region_Impurity_and_Prediction_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Towards_Fewer_Annotations_Active_Learning_via_Region_Impurity_and_Prediction_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/BIT-DA/RIPU)**
 
 Learning Distinctive Margin Toward Active Domain Adaptation  
-**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Learning_Distinctive_Margin_Toward_Active_Domain_Adaptation_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Xie_Learning_Distinctive_Margin_Toward_Active_Domain_Adaptation_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/TencentYoutuResearch/ActiveLearning-SDM)**
 
 BoostMIS: Boosting Medical Image Semi-Supervised Learning With Adaptive Pseudo Labeling and Informative Active Annotation  
-**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_BoostMIS_Boosting_Medical_Image_Semi-Supervised_Learning_With_Adaptive_Pseudo_Labeling_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_BoostMIS_Boosting_Medical_Image_Semi-Supervised_Learning_With_Adaptive_Pseudo_Labeling_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/wannature/BoostMIS)**
 
 One-Bit Active Query With Contrastive Pairs  
 **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Zhang_One-Bit_Active_Query_With_Contrastive_Pairs_CVPR_2022_paper.pdf)**
 
 Revisiting Superpixels for Active Learning in Semantic Segmentation With Realistic Annotation Costs  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Cai_Revisiting_Superpixels_for_Active_Learning_in_Semantic_Segmentation_With_Realistic_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/cailile/Revisiting-Superpixels-for-Active-Learning)**
 
 Sequential Graph Convolutional Network for Active Learning  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Caramalau_Sequential_Graph_Convolutional_Network_for_Active_Learning_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/razvancaramalau/Sequential-GCN-for-Active-Learning)**
 
 VaB-AL: Incorporating Class Imbalance and Difficulty With Variational Bayes for Active Learning  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_VaB-AL_Incorporating_Class_Imbalance_and_Difficulty_With_Variational_Bayes_for_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Choi_VaB-AL_Incorporating_Class_Imbalance_and_Difficulty_With_Variational_Bayes_for_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/jongwon20000/vabal)**
 
 Transferable Query Selection for Active Domain Adaptation  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_Transferable_Query_Selection_for_Active_Domain_Adaptation_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Fu_Transferable_Query_Selection_for_Active_Domain_Adaptation_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/thuml/Transferable-Query-Selection)**
 
 Exploring Data-Efficient 3D Scene Understanding With Contrastive Scene Contexts  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hou_Exploring_Data-Efficient_3D_Scene_Understanding_With_Contrastive_Scene_Contexts_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Hou_Exploring_Data-Efficient_3D_Scene_Understanding_With_Contrastive_Scene_Contexts_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/facebookresearch/ContrastiveSceneContexts)**
 
 Task-Aware Variational Adversarial Active Learning  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_Task-Aware_Variational_Adversarial_Active_Learning_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Kim_Task-Aware_Variational_Adversarial_Active_Learning_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/cubeyoung/TA-VAAL)**
 
 Multiple Instance Active Learning for Object Detection  
-**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf)**
+**[CVPR'21]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2021/papers/Yuan_Multiple_Instance_Active_Learning_for_Object_Detection_CVPR_2021_paper.pdf)** **[[Code]](https://github.com/yuantn/MI-AOD)**
 
 State-Relabeling Adversarial Active Learning  
-**[CVPR'20]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_State-Relabeling_Adversarial_Active_Learning_CVPR_2020_paper.pdf)**
+**[CVPR'20]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Zhang_State-Relabeling_Adversarial_Active_Learning_CVPR_2020_paper.pdf)** **[[Code]](https://github.com/Beichen1996/SRAAL)**
 
 ViewAL: Active Learning with Viewpoint Entropy for Semantic Segmentation  
-**[CVPR'20]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)**
+**[CVPR'20]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2020/papers/Siddiqui_ViewAL_Active_Learning_With_Viewpoint_Entropy_for_Semantic_Segmentation_CVPR_2020_paper.pdf)** **[[Code]](https://github.com/nihalsid/ViewAL)**
 
 Learning Loss for Active Learning  
-**[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.pdf)**
+**[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Yoo_Learning_Loss_for_Active_Learning_CVPR_2019_paper.pdf)** **[[Unofficial Code]](https://github.com/Mephisto405/Learning-Loss-for-Active-Learning)**
 
 Reducing Uncertainty in Undersampled MRI Reconstruction with Active Acquisition  
 **[CVPR'19]** **[[PDF]](https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_Reducing_Uncertainty_in_Undersampled_MRI_Reconstruction_With_Active_Acquisition_CVPR_2019_paper.pdf)**
@@ -140,48 +140,48 @@ Quantization of Fully Convolutional Networks for Accurate Biomedical Image Segme
 **[CVPR'18]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2018/papers/Xu_Quantization_of_Fully_CVPR_2018_paper.pdf)**
 
 Fine-Tuning Convolutional Neural Networks for Biomedical Image Analysis: Actively and Incrementally  
-**[CVPR'17]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)**
+**[CVPR'17]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)** **[[Unofficial Code]](https://github.com/JimmyLauren/entroy_diversity)**
 
 
 ### International Conference on Computer Vision (ICCV)
 Adaptive Superpixel for Active Learning in Semantic Segmentation  
-**[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Adaptive_Superpixel_for_Active_Learning_in_Semantic_Segmentation_ICCV_2023_paper.pdf)**
+**[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Adaptive_Superpixel_for_Active_Learning_in_Semantic_Segmentation_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/ml-postech/adaptive-superpixel-for-active-learning-in-semantic-segmentation)**
 
 Active Learning for Deep Object Detection via Probabilistic Modeling  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Choi_Active_Learning_for_Deep_Object_Detection_via_Probabilistic_Modeling_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/NVlabs/AL-MDN)**
 
 Contrastive Coding for Active Learning Under Class Distribution Mismatch  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Du_Contrastive_Coding_for_Active_Learning_Under_Class_Distribution_Mismatch_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Du_Contrastive_Coding_for_Active_Learning_Under_Class_Distribution_Mismatch_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/RUC-DWBI-ML/CCAL)**
 
 Semi-Supervised Active Learning With Temporal Output Discrepancy  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_Semi-Supervised_Active_Learning_With_Temporal_Output_Discrepancy_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Huang_Semi-Supervised_Active_Learning_With_Temporal_Output_Discrepancy_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/siyuhuang/TOD)**
 
 Influence Selection for Active Learning  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Influence_Selection_for_Active_Learning_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Liu_Influence_Selection_for_Active_Learning_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/dragonlzm/ISAL)**
 
 Multi-Anchor Active Domain Adaptation for Semantic Segmentation  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Ning_Multi-Anchor_Active_Domain_Adaptation_for_Semantic_Segmentation_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Ning_Multi-Anchor_Active_Domain_Adaptation_for_Semantic_Segmentation_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/munanning/MADA)**
 
 Active Learning for Lane Detection: A Knowledge Distillation Approach  
 **[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Peng_Active_Learning_for_Lane_Detection_A_Knowledge_Distillation_Approach_ICCV_2021_paper.pdf)**
 
 Active Domain Adaptation via Clustering Uncertainty-Weighted Embeddings  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Prabhu_Active_Domain_Adaptation_via_Clustering_Uncertainty-Weighted_Embeddings_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Prabhu_Active_Domain_Adaptation_via_Clustering_Uncertainty-Weighted_Embeddings_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/virajprabhu/CLUE)**
 
 S3VAADA: Submodular Subset Selection for Virtual Adversarial Active Domain Adaptation  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Rangwani_S3VAADA_Submodular_Subset_Selection_for_Virtual_Adversarial_Active_Domain_Adaptation_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Rangwani_S3VAADA_Submodular_Subset_Selection_for_Virtual_Adversarial_Active_Domain_Adaptation_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/val-iisc/s3vaada)**
 
 LabOR: Labeling Only If Required for Domain Adaptive Semantic Segmentation  
 **[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Shin_LabOR_Labeling_Only_if_Required_for_Domain_Adaptive_Semantic_Segmentation_ICCV_2021_paper.pdf)**
 
 ReDAL: Region-Based and Diversity-Aware Active Learning for Point Cloud Semantic Segmentation  
-**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)**
+**[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/tsunghan-wu/ReDAL)**
 
 Deep Reinforcement Active Learning for Human-in-the-Loop Person Re-Identification  
 **[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Deep_Reinforcement_Active_Learning_for_Human-in-the-Loop_Person_Re-Identification_ICCV_2019_paper.pdf)**
 
 Variational Adversarial Active Learning  
-**[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.pdf)**
+**[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Sinha_Variational_Adversarial_Active_Learning_ICCV_2019_paper.pdf)** **[[Code]](https://github.com/sinhasam/vaal)**
 
 
 ### ICCV Workshop
@@ -191,34 +191,34 @@ Reducing Label Effort: Self-Supervised Meets Active Learning
 
 ### European Conference on Computer Vision (ECCV)
 LiDAL: Inter-Frame Uncertainty Based Active Learning for 3D LiDAR Semantic Segmentation  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19812-0_15)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19812-0_15)** **[[Code]](https://github.com/hzykent/LiDAL)**
 
 Combating Label Distribution Shift for Active Domain Adaptation  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_32)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19827-4_32)** **[[Code]](https://github.com/sehyun03/ADA-label-distribution-matching)**
 
 Unsupervised Selective Labeling for More Effective Semi-Supervised Learning  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_25)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_25)** **[[Code]](https://github.com/TonyLianLong/UnsupervisedSelectiveLabeling)**
 
 D2ADA: Dynamic Density-Aware Active Domain Adaptation for Semantic Segmentation  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_26)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19818-2_26)** **[[Code]](https://github.com/tsunghan-wu/D2ADA)**
 
 When Active Learning Meets Implicit Semantic Data Augmentation  
 **[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_25)**
 
 Talisman: Targeted Active Learning for Object Detection with Rare Classes and Slices Using Submodular Mutual Information  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19839-7_1)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19839-7_1)** **[[Code]](https://github.com/surajkothawade/talisman)**
 
 PT4AL: Using Self-Supervised Pretext Tasks for Active Learning  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_34)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19809-0_34)** **[[Code]](https://github.com/johnsk95/PT4AL)**
 
 Active learning strategies for weakly-supervised object detection  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_13)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20056-4_13)** **[[Code]](https://github.com/huyvvo/BiB)**
 
 Active Pointly-Supervised Instance Segmentation  
-**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_35)**
+**[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-19815-1_35)** **[[Code]](https://github.com/chufengt/APIS)**
 
 Contextual Diversity for Active Learning  
-**[ECCV'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_9)**
+**[ECCV'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-58517-4_9)** **[[Code]](https://github.com/sharat29ag/CDAL)**
 
 Consistency-Based Semi-Supervised Active Learning: Towards Minimizing Labeling Cost  
 **[ECCV'20]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-58607-2_30)**
@@ -232,7 +232,7 @@ Dual Adversarial Network for Deep Active Learning
 
 ### IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)
 Class-Balanced Active Learning for Image Classification  
-**[WACV'22]** **[[PDF]](https://openaccess.thecvf.com/content/WACV2022/papers/Bengar_Class-Balanced_Active_Learning_for_Image_Classification_WACV_2022_paper.pdf)**
+**[WACV'22]** **[[PDF]](https://openaccess.thecvf.com/content/WACV2022/papers/Bengar_Class-Balanced_Active_Learning_for_Image_Classification_WACV_2022_paper.pdf)** **[[Code]](https://github.com/Javadzb/Class-Balanced-AL)**
 
 Active Adversarial Domain Adaptation  
 **[WACV'20]** **[[PDF]](https://openaccess.thecvf.com/content_WACV_2020/papers/Su_Active_Adversarial_Domain_Adaptation_WACV_2020_paper.pdf)**
@@ -248,28 +248,28 @@ CEREALS - Cost-Effective REgion-Based Active Learning for Semantic Segmentation
 
 ### International Conference on Learning Representations (ICLR)
 A Simple Yet Powerful Deep Active Learning With Snapshots Ensembles  
-**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=IVESH65r0Ar)**
+**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=IVESH65r0Ar)** **[[Code]](https://github.com/nannullna/snapshot-al)**
 
 Active Learning for Object Detection with Evidential Deep Learning and Hierarchical Uncertainty Aggregation  
-**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=MnEjsw-vj-X)**
+**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=MnEjsw-vj-X)** **[[Code]](https://github.com/MoonLab-YH/AOD_MEH_HUA)**
 
 Evidential Uncertainty and Diversity Guided Active Learning for Scene Graph Generation  
 **[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=xI1ZTtVOtlz)**
 
 Dirichlet-Based Uncertainty Calibration for Active Domain Adaptation  
-**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=4WM4cy42B81)**
+**[ICLR'23]** **[[PDF]](https://openreview.net/pdf?id=4WM4cy42B81)** **[[Code]](https://github.com/BIT-DA/DUC)**
 
 Low-Budget Active Learning via Wasserstein Distance: An Integer Programming Approach  
 **[ICLR'22]** **[[PDF]](https://openreview.net/pdf?id=v8OlxjGn23S)**
 
 Deep Batch Active Learning by Diverse, Uncertain Gradient Lower Bounds  
-**[ICLR'20]** **[[PDF]](https://openreview.net/pdf?id=ryghZJBKPS)**
+**[ICLR'20]** **[[PDF]](https://openreview.net/pdf?id=ryghZJBKPS)** **[[Code]](https://github.com/JordanAsh/badge)**
 
 Reinforced Active Learning for Image Segmentation  
-**[ICLR'20]** **[[PDF]](https://openreview.net/pdf?id=SkgC6TNFvr)**
+**[ICLR'20]** **[[PDF]](https://openreview.net/pdf?id=SkgC6TNFvr)** **[[Code]](https://github.com/ArantxaCasanova/ralis)**
 
 Active Learning for Convolutional Neural Networks: A Core-Set Approach  
-**[ICLR'18]** **[[PDF]](https://openreview.net/pdf?id=H1aIuk-RW)**
+**[ICLR'18]** **[[PDF]](https://openreview.net/pdf?id=H1aIuk-RW)** **[[Code]](https://github.com/ozansener/active_learning_coreset)**
 
 
 ### Advances in Neural Information Processing Systems (NeurIPS)
@@ -402,10 +402,10 @@ Active Learning Enhances Classification of Histopathology Whole Slide Images wit
 
 ### MICCAI Workshops
 Active Deep Learning with Fisher Information for Patch-Wise Semantic Segmentation  
-**[DLMIA'18]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-00889-5_10)**
+**[MICCAIW'18]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-030-00889-5_10)**
 
 CLINICAL: Targeted Active Learning for Imbalanced Medical Image Classification  
-**[MILLanD'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-16760-7_12)**
+**[MICCAIW'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-16760-7_12)**
 
 
 ### Annual Meeting of the Association for Computational Linguistics (ACL)
@@ -435,6 +435,11 @@ Active Image Synthesis for Efficient Labeling
 
 A Probabilistic Active Learning Algorithm Based on Fisher Information Ratio  
 **[TPAMI 2018]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8016395)**
+
+
+### Journal of Machine Learning Research (JMLR)
+Asymptotic analysis of objectives based on fisher information in active learning  
+**[JMLR 2017]** **[[PDF]](https://www.jmlr.org/papers/volume18/15-104/15-104.pdf)**
 
 
 ### Medical Image Analysis (MedIA)
@@ -486,11 +491,6 @@ DSAL: Deeply Supervised Active Learning from Strong and Weak Labelers for Biomed
 
 Label-Efficient Breast Cancer Histopathological Image Classification  
 **[JBHI 2019]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8561292)**
-
-
-### Journal of Machine Learning Research (JMLR)
-Asymptotic analysis of objectives based on fisher information in active learning  
-**[JMLR 2017]** **[[PDF]](https://www.jmlr.org/papers/volume18/15-104/15-104.pdf)**
 
 
 ### IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
