@@ -25,20 +25,20 @@ We also welcome contributions to this repo. Please submit a pull request if you 
 
 - [ ] Categorized by topics or methods
 
-- [x] Add venue, publication time, PDF link
+- [x] Add venue, publication time, PDF links
 
-- [x] Add code link (if official implementation available)
+- [x] Add code links (if official implementation available)
 
-- [ ] Add newly published papers in 2023
+- [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~)
 
-- [ ] Add related missing papers
+- [ ] **[Ongoing]** Add related missing papers
 
 
 ## Papers
 
-> **[[PDF]]()** - PDF link
-> **[[Code]]()** - official code link
-> ❎ - not cited in the survey paper
+> **[[PDF]]()** - PDF link  
+> **[[Code]]()** - official code link  
+> ❎ - not cited in the survey paper  
 
 ### Surveys
 
@@ -58,7 +58,7 @@ A survey on active learning and human-in-the-loop deep learning for medical imag
 **[2021 MedIA]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841521001080)**
 
 A survey of deep active learning  
-**[2021 ACM computing surveys]** **[[PDF]](https://dl.acm.org/doi/abs/10.1145/3472291)**
+**[2021 ACM Computing Surveys]** **[[PDF]](https://dl.acm.org/doi/abs/10.1145/3472291)**
 
 Embracing imperfect datasets: A review of deep learning solutions for medical image segmentation  
 **[2020 MedIA]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S136184152030058X)**
@@ -68,6 +68,19 @@ Active learning literature survey
 
 
 ### IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+Re-Thinking Federated Active Learning Based on Inter-Class Diversity  
+❎ **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Re-Thinking_Federated_Active_Learning_Based_on_Inter-Class_Diversity_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/raymin0223/LoGo)**
+
+Hybrid Active Learning via Deep Clustering for Video Action Detection  
+❎ **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Rana_Hybrid_Active_Learning_via_Deep_Clustering_for_Video_Action_Detection_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/aayushjr/HybridCLAUS)**
+
+Are Binary Annotations Sufficient? Video Moment Retrieval via Hierarchical Uncertainty-Based Active Learning  
+❎ **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Ji_Are_Binary_Annotations_Sufficient_Video_Moment_Retrieval_via_Hierarchical_Uncertainty-Based_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/renjie-liang/HUAL)**
+
+MHPL: Minimum Happy Points Learning for Active Source Free Domain Adaptation  
+❎ **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Wang_MHPL_Minimum_Happy_Points_Learning_for_Active_Source_Free_Domain_CVPR_2023_paper.pdf)**
+
 Active Finetuning: Exploiting Annotation Budget in the Pretraining-Finetuning Paradigm  
 **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Xie_Active_Finetuning_Exploiting_Annotation_Budget_in_the_Pretraining-Finetuning_Paradigm_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/yichen928/ActiveFT)**
 
@@ -147,6 +160,28 @@ Fine-Tuning Convolutional Neural Networks for Biomedical Image Analysis: Activel
 **[CVPR'17]** **[[PDF]](https://openaccess.thecvf.com/content_cvpr_2017/papers/Zhou_Fine-Tuning_Convolutional_Neural_CVPR_2017_paper.pdf)** **[[Code]](https://github.com/MrGiovanni/Active-Learning)**
 
 ### International Conference on Computer Vision (ICCV)
+
+HAL3D: Hierarchical Active Learning for Fine-Grained 3D Part Labeling  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_HAL3D_Hierarchical_Active_Learning_for_Fine-Grained_3D_Part_Labeling_ICCV_2023_paper.pdf)**
+
+Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Xu_Hierarchical_Point-based_Active_Learning_for_Semi-supervised_Point_Cloud_Semantic_Segmentation_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/SmiletoE/HPAL)**
+
+ALWOD: Active Learning for Weakly-Supervised Object Detection  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Wang_ALWOD_Active_Learning_for_Weakly-Supervised_Object_Detection_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/seqam-lab/ALWOD)**
+
+You Never Get a Second Chance To Make a Good First Impression: Seeding Active Learning for 3D Semantic Segmentation  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Samet_You_Never_Get_a_Second_Chance_To_Make_a_Good_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/nerminsamet/seedal)**
+
+Heterogeneous Diversity Driven Active Learning for Multi-Object Tracking  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Li_Heterogeneous_Diversity_Driven_Active_Learning_for_Multi-Object_Tracking_ICCV_2023_paper.pdf)**
+
+TiDAL: Learning Training Dynamics for Active Learning  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kye_TiDAL_Learning_Training_Dynamics_for_Active_Learning_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/hyperconnect/TiDAL)**
+
+Knowledge-Aware Federated Active Learning with Non-IID Data  
+❎ **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Cao_Knowledge-Aware_Federated_Active_Learning_with_Non-IID_Data_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/ycao5602/KAFAL)**
+
 Adaptive Superpixel for Active Learning in Semantic Segmentation  
 **[ICCV'23]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2023/papers/Kim_Adaptive_Superpixel_for_Active_Learning_in_Semantic_Segmentation_ICCV_2023_paper.pdf)** **[[Code]](https://github.com/ml-postech/adaptive-superpixel-for-active-learning-in-semantic-segmentation)**
 
@@ -279,6 +314,9 @@ Active Learning for Convolutional Neural Networks: A Core-Set Approach
 Towards Free Data Selection with General-Purpose Models
 **[NeurIPS'23]** **[[PDF]](https://browse.arxiv.org/pdf/2309.17342.pdf)** **[[Code]](https://github.com/yichen928/FreeSel)**
 
+Are all Frames Equal? Active Sparse Labeling for Video Action Detection  
+❎ **[NeurIPS'22]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5c81ea77a383cc2848d721224717fa4b-Paper-Conference.pdf)** **[[Code]](https://github.com/aayushjr/ASL-video)**
+
 Active Learning Through a Covering Lens  
 **[NeurIPS'22]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/8c64bc3f7796d31caa7c3e6b969bf7da-Paper-Conference.pdf)** **[[Code]](https://github.com/avihu111/TypiClust)**
 
@@ -332,6 +370,22 @@ Deep Active Learning with Adaptive Acquisition
 
 
 ### International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+
+PLD-AL: Pseudo-label Divergence-Based Active Learning in Carotid Intima-Media Segmentation for Ultrasound Images  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_6)** **[[Code]](https://github.com/CrystalWei626/PLD_AL)**
+
+Adaptive Region Selection for Active Learning in Whole Slide Image Semantic Segmentation  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_9)** **[[Code]](https://github.com/DeepMicroscopy/AdaptiveRegionSelection)**
+
+EdgeAL: An Edge Estimation Based Active Learning Approach for OCT Segmentation  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_8)** **[[Code]](https://github.com/Mak-Ta-Reque/EdgeAL)**
+
+COLosSAL: A Benchmark for Cold-Start Active Learning for 3D Medical Image Segmentation  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_3)** **[[Code]](https://github.com/MedICL-VU/COLosSAL)**
+
+atTRACTive: Semi-automatic white matter tract segmentation using active learning  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43993-3_23)** **[[Code]](https://github.com/MIC-DKFZ/atTRACTive_simulations)**
+
 OpenAL: An Efficient Deep Active Learning Framework for Open-Set Pathology Image Classification  
 **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_1)** **[[Code]](https://github.com/miccaiif/OpenAL)**
 
@@ -449,6 +503,10 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 
 ### Medical Image Analysis (MedIA)
+
+HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation  
+❎ **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S1361841523001226)**
+
 Deep Active Learning for Suggestive Segmentation of Biomedical Image Stacks via Optimisation of Dice Scores and Traced Boundary Length  
 **[MedIA 2022]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841522001967)**
 
@@ -466,6 +524,12 @@ Active, Continual Fine Tuning of Convolutional Neural Networks for Reducing Anno
 
 
 ### IEEE Transactions on Medical Imaging (TMI)
+Learning from Incorrectness: Active Learning with Negative Pre-training and Curriculum Querying for Histological Tissue Classification  
+❎ **[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10244066)** **[[Code]](https://github.com/LactorHwt/ICAL)**
+
+Federated Active Learning for Multicenter Collaborative Disease Diagnosis  
+❎ **[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9975277)**
+
 Which Pixel to Annotate: A Label-Efficient Nuclei Segmentation Framework  
 **[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/9946007)** **[[Code]](https://github.com/Lewislou/Label-Effcient-Nuclei-Segmentation)**
 
@@ -497,6 +561,11 @@ DSAL: Deeply Supervised Active Learning from Strong and Weak Labelers for Biomed
 
 Label-Efficient Breast Cancer Histopathological Image Classification  
 **[JBHI 2019]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8561292)**
+
+
+### IEEE Transactions on Biomedical Engineering (TBME)
+Reliable Label-Efficient Learning for Biomedical Image Recognition  
+❎ **[TBME 2018]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/8590767)**
 
 
 ### IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
