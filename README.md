@@ -40,7 +40,7 @@ We also welcome contributions to this repo. Please submit a pull request if you 
 
 > **[[PDF]]()** - PDF link  
 > **[[Code]]()** - official code link  
-> ❎ - not cited in our survey paper  
+> ❎ - not (yet) cited in our survey paper  
 
 ### Surveys
 
@@ -95,10 +95,10 @@ Box-Level Active Detection
 **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Lyu_Box-Level_Active_Detection_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/lyumengyao/blad)**
 
 Entropy-Based Active Learning for Object Detection With Progressive Diversity Constraint  
-❎ **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Entropy-Based_Active_Learning_for_Object_Detection_With_Progressive_Diversity_Constraint_CVPR_2022_paper.pdf)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Wu_Entropy-Based_Active_Learning_for_Object_Detection_With_Progressive_Diversity_Constraint_CVPR_2022_paper.pdf)**
 
 Active Learning for Open-Set Annotation  
-❎ **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ning_Active_Learning_for_Open-Set_Annotation_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/PrateekMunjal/TorchAL)**
+**[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Ning_Active_Learning_for_Open-Set_Annotation_CVPR_2022_paper.pdf)** **[[Code]](https://github.com/PrateekMunjal/TorchAL)**
 
 Meta Agent Teaming Active Learning for Pose Estimation  
 **[CVPR'22]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2022/papers/Gong_Meta_Agent_Teaming_Active_Learning_for_Pose_Estimation_CVPR_2022_paper.pdf)**
@@ -232,7 +232,7 @@ ReDAL: Region-Based and Diversity-Aware Active Learning for Point Cloud Semantic
 **[ICCV'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021/papers/Wu_ReDAL_Region-Based_and_Diversity-Aware_Active_Learning_for_Point_Cloud_Semantic_ICCV_2021_paper.pdf)** **[[Code]](https://github.com/tsunghan-wu/ReDAL)**
 
 Active Learning for Deep Detection Neural Networks  
-❎ **[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Aghdam_Active_Learning_for_Deep_Detection_Neural_Networks_ICCV_2019_paper.pdf)**
+**[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Aghdam_Active_Learning_for_Deep_Detection_Neural_Networks_ICCV_2019_paper.pdf)** **[[Code]](https://gitlab.com/haghdam/deep_active_learning)**
 
 Deep Reinforcement Active Learning for Human-in-the-Loop Person Re-Identification  
 **[ICCV'19]** **[[PDF]](https://openaccess.thecvf.com/content_ICCV_2019/papers/Liu_Deep_Reinforcement_Active_Learning_for_Human-in-the-Loop_Person_Re-Identification_ICCV_2019_paper.pdf)**
