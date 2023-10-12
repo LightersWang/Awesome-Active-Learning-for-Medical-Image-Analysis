@@ -15,7 +15,7 @@ If you find this repo or this survey paper helpful, please consider citing:
 TBD
 ```
 
-Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added to this repo.
+Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added.
 
 If you have any questions or suggestions, feel free to create an issue in this repo or contact me through e-mail (hrwang20@fudan.edu.cn)
 
@@ -411,6 +411,9 @@ Deep Active Learning with Adaptive Acquisition
 
 
 ### International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+SLPT: Selective Labeling Meets Prompt Tuning on Label-Limited Lesion Segmentation  
+❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_2)**
+
 PLD-AL: Pseudo-label Divergence-Based Active Learning in Carotid Intima-Media Segmentation for Ultrasound Images  
 ❎ **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_6)** **[[Code]](https://github.com/CrystalWei626/PLD_AL)**
 
