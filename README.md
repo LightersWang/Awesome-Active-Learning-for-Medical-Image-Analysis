@@ -17,9 +17,9 @@ TBD
 
 Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added.
 
-If you have any questions or suggestions, feel free to create an issue in this repo or contact me through e-mail (hrwang20@fudan.edu.cn)
+**If you have any questions or suggestions, or if you think your paper fits the our framework and should be added in the survey, feel free to contact me through e-mail (hrwang20@fudan.edu.cn) or create an issue in this repo.**
 
-We also welcome contributions to this repo. Please submit a pull request if you want to contribute!
+We also welcome contributions to this repo for updating the paper list. Please submit a pull request if you want to contribute!
 
 ## To-do List
 
