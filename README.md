@@ -6,18 +6,25 @@
 In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers published on top-tier journals or conferences.
 
 This repo is mainly based on the following survey:  
-**[A comprehensive survey on deep active learning and its applications in medical image analysis]()**  
+**[A comprehensive survey on deep active learning and its applications in medical image analysis](https://arxiv.org/abs/2310.14230)**  
 _Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_
 
 If you find this repo or this survey paper helpful, please consider citing:
 
 ```bibtex
-TBD
+@misc{wanga2023comprehensive,
+      title={A comprehensive survey on deep active learning and its applications in medical image analysis}, 
+      author={Haoran Wang and Qiuye Jin and Shiman Li and Siyu Liu and Manning Wang and Zhijian Song},
+      year={2023},
+      eprint={2310.14230},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added.
 
-**If you have any questions or suggestions, or if you think your paper fits the our framework and should be added in the survey, feel free to contact me through e-mail (hrwang20@fudan.edu.cn) or create an issue in this repo.**
+**If you have any questions or suggestions, or if you think your paper fits our framework and should be added in the survey, feel free to contact me through e-mail (hrwang20@fudan.edu.cn) or create an issue in this repo.**
 
 We also welcome contributions to this repo for updating the paper list. Please submit a pull request if you want to contribute!
 
