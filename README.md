@@ -8,7 +8,7 @@ In this repo, we provide a paper list of active learning in the fields of medica
 This repo is mainly based on the following survey:  
 **[A comprehensive survey on deep active learning and its applications in medical image analysis](https://arxiv.org/abs/2310.14230)**  
 _Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_  
-\* -- Corresponding Author
+_\* -- Corresponding Author_
 
 If you find this repo or this survey paper helpful, please consider citing:
 
@@ -23,7 +23,7 @@ If you find this repo or this survey paper helpful, please consider citing:
 }
 ```
 
-Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added.
+Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added. **Please star us if you find this repo helpful ⭐**
 
 **If you have any questions or suggestions, or if you think your paper fits our framework and should be added in the survey, feel free to contact me through e-mail (hrwang20@fudan.edu.cn) or create an issue in this repo.**
 
@@ -649,6 +649,10 @@ Density-Based One-Shot Active Learning for Image Segmentation
 
 
 ### arXiv
+Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals  
+🕝 **[arXiv 2023]** **[[PDF]](https://arxiv.org/pdf/2309.13401.pdf)** **[[Code]](https://github.com/whq-xxh/Active-GTV-Seg)**
+
+
 Active Self-Training for Weakly Supervised 3D Scene Semantic Segmentation  
 **[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2209.07069.pdf)** **[[Code]](https://github.com/GengxinLiu/ActiveST)**
 
