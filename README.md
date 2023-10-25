@@ -7,7 +7,8 @@ In this repo, we provide a paper list of active learning in the fields of medica
 
 This repo is mainly based on the following survey:  
 **[A comprehensive survey on deep active learning and its applications in medical image analysis](https://arxiv.org/abs/2310.14230)**  
-_Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_
+_Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_  
+\* -- Corresponding Author
 
 If you find this repo or this survey paper helpful, please consider citing:
 
