@@ -1,6 +1,6 @@
 # Awesome-Active-Learning-for-Medical-Image-Analysis
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2310.14230-b31b1b.svg)](https://arxiv.org/abs/2310.14230)
 
 
 In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers published on top-tier journals or conferences.
@@ -13,13 +13,11 @@ _\* -- Corresponding Author_
 If you find this repo or this survey paper helpful, please consider citing:
 
 ```bibtex
-@misc{wanga2023comprehensive,
-      title={A comprehensive survey on deep active learning and its applications in medical image analysis}, 
-      author={Haoran Wang and Qiuye Jin and Shiman Li and Siyu Liu and Manning Wang and Zhijian Song},
-      year={2023},
-      eprint={2310.14230},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{wang2023comprehensive,
+      title={A comprehensive survey on deep active learning and its applications in medical image analysis},
+      author={Wang, Haoran and Jin, Qiuye and Li, Shiman and Liu, Siyu and Wang, Manning and Song, Zhijian},
+      journal={arXiv preprint arXiv:2310.14230},
+      year={2023}
 }
 ```
 
