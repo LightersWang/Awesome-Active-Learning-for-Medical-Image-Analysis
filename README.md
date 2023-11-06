@@ -538,6 +538,16 @@ Deep Active Learning: Unified and Principled Method for Query and Training
 **[AISTATS'20]** **[[PDF]](http://proceedings.mlr.press/v108/shui20a/shui20a.pdf)** **[[Code]](https://github.com/cjshui/WAAL)**
 
 
+### Nature Communications
+Active label cleaning for improved dataset quality under resource constraints  
+🕝 **[Nature Communications 2022]** **[[PDF]](https://www.nature.com/articles/s41467-022-28818-3)** **[[Code]](https://github.com/microsoft/InnerEye-DeepLearning/tree/1606729c7a16e1bfeb269694314212b6e2737939/InnerEye-DataQuality)**  
+
+
+### npj Digital Medicine
+Biological data annotation via a human-augmenting AI-based labeling system  
+🕝 **[npj Digital Medicine 2021]** **[[PDF]](https://www.nature.com/articles/s41746-021-00520-6)**  
+
+
 ### IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 Multiple Instance Differentiation Learning for Active Object Detection  
 **[TPAMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10129096)** **[[Code]](https://github.com/WanFang13/MIDL)**
