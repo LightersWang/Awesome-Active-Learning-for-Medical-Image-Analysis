@@ -37,7 +37,9 @@ We also welcome contributions to this repo for updating the paper list. Please s
 
 - [x] Add code links (if official implementation available)
 
-- [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~)
+- [ ] Add author names
+
+- [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~, NeurIPS, ICLR, ICML)
 
 - [ ] **[Ongoing]** Add related missing papers
 
@@ -250,6 +252,9 @@ Variational Adversarial Active Learning
 ### ICCV Workshop
 Reducing Label Effort: Self-Supervised Meets Active Learning  
 **[ICCVW'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021W/ILDAV/papers/Bengar_Reducing_Label_Effort_Self-Supervised_Meets_Active_Learning_ICCVW_2021_paper.pdf)**
+
+Joint semi-supervised and active learning for segmentation of gigapixel pathology images with cost-effective labeling  
+🕝 **[ICCVW'21]** **[[PDF]](https://openaccess.thecvf.com/content/ICCV2021W/CDPath/papers/Lai_Joint_Semi-Supervised_and_Active_Learning_for_Segmentation_of_Gigapixel_Pathology_ICCVW_2021_paper.pdf)**
 
 
 ### European Conference on Computer Vision (ECCV)
