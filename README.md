@@ -39,7 +39,7 @@ We also welcome contributions to this repo for updating the paper list. Please s
 
 - [ ] Add author names
 
-- [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~, NeurIPS, ICLR, ICML)
+- [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~, ~~NeurIPS~~, ICLR, ICML)
 
 - [ ] **[Ongoing]** Add related missing papers
 
@@ -360,11 +360,35 @@ Active Learning for Convolutional Neural Networks: A Core-Set Approach
 
 ### Advances in Neural Information Processing Systems (NeurIPS)
 
+How to Select Which Active Learning Strategy Is Best Suited for Your Specific Problem and Budget  
+🕝 **[NeurIPS'23]** **[[PDF]](https://arxiv.org/pdf/2306.03543.pdf)**  
+
+Not All Out-of-Distribution Data Are Harmful to Open-Set Active Learning  
+🕝 **[NeurIPS'23]** **[[PDF]](https://openreview.net/pdf?id=lV3LIGlc1w)** **[[Code]](https://github.com/njustkmg/PAL)**
+
+Active Learning for Semantic Segmentation with Multi-class Label Query  
+🕝 **[NeurIPS'23]** **[[PDF]](https://arxiv.org/pdf/2309.09319.pdf)** **[[Code]](https://github.com/sehyun03/MulActSeg)**
+
+Annotator: A Generic Active Learning Baseline for LiDAR Semantic Segmentation  
+🕝 **[NeurIPS'23]** **[[PDF]](https://arxiv.org/pdf/2310.20293.pdf)** **[[Code]](https://github.com/BIT-DA/Annotator)**
+
 AbdomenAtlas-8K: Annotating 8,000 Abdominal CT Volumes for Multi-Organ Segmentation in Three Weeks  
 🕝 **[NeurIPS'23]** **[[PDF]](https://www.cs.jhu.edu/~alanlab/Pubs23/qu2023abdomenatlas.pdf)** **[[Code]](https://github.com/https://github.com/MrGiovanni/AbdomenAtlas)**
 
 Towards Free Data Selection with General-Purpose Models  
 **[NeurIPS'23]** **[[PDF]](https://browse.arxiv.org/pdf/2309.17342.pdf)** **[[Code]](https://github.com/yichen928/FreeSel)**
+
+A Lagrangian Duality Approach to Active Learning  
+🕝 **[NeurIPS'22]** **[[PDF]](https://papers.nips.cc/paper_files/paper/2022/file/f475bdd151d8b5fa01215aeda925e75c-Paper-Conference.pdf)**  
+
+Meta-Query-Net: Resolving Purity-Informativeness Dilemma in Open-set Active Learning  
+🕝 **[NeurIPS'22]** **[[PDF]](https://papers.nips.cc/paper_files/paper/2022/file/cba6f4460a1f395f68a88598c86e79bd-Paper-Conference.pdf)**  
+
+Active Learning Helps Pretrained Models Learn the Intended Task  
+🕝 **[NeurIPS'22]** **[[PDF]](https://papers.nips.cc/paper_files/paper/2022/file/b43a0e8a35b1c044b18cd843b9771915-Paper-Conference.pdf)**  
+
+Deep Active Learning by Leveraging Training Dynamics  
+🕝 **[NeurIPS'22]** **[[PDF]](https://papers.nips.cc/paper_files/paper/2022/file/a102dd5931da01e1b40205490513304c-Paper-Conference.pdf)**
 
 Are all Frames Equal? Active Sparse Labeling for Video Action Detection  
 🕝 **[NeurIPS'22]** **[[PDF]](https://proceedings.neurips.cc/paper_files/paper/2022/file/5c81ea77a383cc2848d721224717fa4b-Paper-Conference.pdf)** **[[Code]](https://github.com/aayushjr/ASL-video)**
@@ -573,6 +597,9 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 
 ### Medical Image Analysis (MedIA)
+
+Active learning for medical image segmentation with stochastic batches  
+🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523002189)** **[[Code]](https://github.com/Minimel/StochasticBatchAL)**
 
 HAL-IA: A Hybrid Active Learning framework using Interactive Annotation for medical image segmentation  
 🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/abs/pii/S1361841523001226)**
