@@ -424,6 +424,9 @@ Deep Bayesian Active Learning with Image Data
 
 
 ### AAAI Conference on Artificial Intelligence (AAAI)
+EOAL: Entropic Open-set Active Learning<br>
+**[AAAI'24]** **[[PDF]](https://arxiv.org/abs/2312.14126)** **[[Code]](https://github.com/bardisafa/EOAL)**
+
 PRISM: A Rich Class of Parameterized Submodular Information Measures for Guided Subset Selection  
 **[AAAI'22]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/21264/21013)**
 
