@@ -598,6 +598,9 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 ### Medical Image Analysis (MedIA)
 
+GANDALF: Graph-based transformer and Data Augmentation Active Learning Framework with interpretable features for multi-label chest Xray classification  
+🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523003353)**
+
 Active learning for medical image segmentation with stochastic batches  
 🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523002189)** **[[Code]](https://github.com/Minimel/StochasticBatchAL)**
 
@@ -689,9 +692,11 @@ Density-Based One-Shot Active Learning for Image Segmentation
 
 
 ### arXiv
+Think Twice Before Selection: Federated Evidential Active Learning for Medical Image Analysis with Domain Shifts  
+🕝 **[arXiv 2023]** **[[PDF]](https://arxiv.org/abs/2312.02567)**
+
 Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals  
 🕝 **[arXiv 2023]** **[[PDF]](https://arxiv.org/pdf/2309.13401.pdf)** **[[Code]](https://github.com/whq-xxh/Active-GTV-Seg)**
-
 
 Active Self-Training for Weakly Supervised 3D Scene Semantic Segmentation  
 **[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2209.07069.pdf)** **[[Code]](https://github.com/GengxinLiu/ActiveST)**
