@@ -424,7 +424,7 @@ Deep Bayesian Active Learning with Image Data
 
 
 ### AAAI Conference on Artificial Intelligence (AAAI)
-EOAL: Entropic Open-set Active Learning<br>
+EOAL: Entropic Open-set Active Learning  
 🕝 **[AAAI'24]** **[[PDF]](https://arxiv.org/abs/2312.14126)** **[[Code]](https://github.com/bardisafa/EOAL)**
 
 PRISM: A Rich Class of Parameterized Submodular Information Measures for Guided Subset Selection  
@@ -602,7 +602,7 @@ Asymptotic analysis of objectives based on fisher information in active learning
 ### Medical Image Analysis (MedIA)
 
 GANDALF: Graph-based transformer and Data Augmentation Active Learning Framework with interpretable features for multi-label chest Xray classification  
-🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523003353)**
+🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523003353)**
 
 Active learning for medical image segmentation with stochastic batches  
 🕝 **[MedIA 2023]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523002189)** **[[Code]](https://github.com/Minimel/StochasticBatchAL)**
