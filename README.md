@@ -360,6 +360,9 @@ Active Learning for Convolutional Neural Networks: A Core-Set Approach
 
 ### Advances in Neural Information Processing Systems (NeurIPS)
 
+Navigating the Pitfalls of Active Learning Evaluation: A Systematic Framework for Meaningful Performance Assessment  
+🕝 **[NeurIPS'23]** **[[PDF]](https://openreview.net/pdf?id=Dqn715Txgl)** **[[Code]](https://github.com/IML-DKFZ/realistic-al)**
+
 How to Select Which Active Learning Strategy Is Best Suited for Your Specific Problem and Budget  
 🕝 **[NeurIPS'23]** **[[PDF]](https://arxiv.org/pdf/2306.03543.pdf)**  
 
