@@ -1,0 +1,17 @@
+black==19.3b0
+flake8==3.8.4
+isort==4.3.21
+matplotlib==3.3.4
+numpy
+opencv-python==4.2.0.34
+parameterized
+setuptools
+simplejson
+yacs
+pandas
+scikit-learn
+tensorboardX
+monai
+tqdm
+# torch==1.7.1
+# torchvision==0.8.2

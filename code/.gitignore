@@ -1,7 +1,6 @@
 logs
 *.log
 __pycache__
-data
 .vscode
 .ipynb_checkpoints
 classification/output

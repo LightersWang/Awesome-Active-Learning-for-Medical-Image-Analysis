@@ -1,0 +1,21 @@
+# constant==0.0.4
+# fast_slic==0.4.0
+# imageio==2.9.0
+# ml_collections==0.1.1
+# monai==1.1.0
+# numpy==1.22.3
+# pandas==1.4.2
+# Pillow==9.4.0
+# python_dateutil==2.8.2
+# pytorch_warmup==0.1.0
+# scikit_learn==1.2.1
+# scipy==1.7.3
+# six==1.16.0
+# tensorboardX==2.5.1
+# torch==1.11.0+cu113
+# torch_scatter==2.0.9
+# tqdm==4.64.0
+h5py
+medpy
+torch_scatter
+scikit-image

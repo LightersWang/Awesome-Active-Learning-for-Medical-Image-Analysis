@@ -1,0 +1,10 @@
+data/patient002_frame01.h5
+data/patient019_frame01.h5
+data/patient028_frame01.h5
+data/patient030_frame01.h5
+data/patient039_frame01.h5
+data/patient045_frame01.h5
+data/patient078_frame01.h5
+data/patient082_frame01.h5
+data/patient085_frame01.h5
+data/patient087_frame01.h5
