@@ -4,7 +4,7 @@ This is a code base for deep active learning for image classification written in
 
 ## Using the Toolkit
 
-Please see [`GETTING_STARTED`](docs/GETTING_STARTED.md) for brief instructions on installation, adding new datasets, basic usage examples, etc.
+Please see [`GETTING_STARTED`](GETTING_STARTED.md) for brief instructions on installation, adding new datasets, basic usage examples, etc.
 
 ## Active Learning Methods Supported
   * Least Confidence
@@ -27,10 +27,10 @@ Place the two datasets as follow:
 code/classification/data/
 ├── ISIC2020
 │   ├── ISIC_2020_Training_JPEG_300x300
-│   └── train
-│       ├── ISIC_0015719.jpg
-│       ...
-│       └── ISIC_9999806.jpg
+│   ├── train
+│   │   ├── ISIC_0015719.jpg
+│   │   ...
+│   │   └── ISIC_9999806.jpg
 │   ├── test_split.csv
 │   └── trainval_split.csv
 └── NCT
@@ -40,7 +40,7 @@ code/classification/data/
         └── ...
 ```
 
-Follow the instructions in [`GETTING_STARTED`](docs/GETTING_STARTED.md) to add a new dataset. 
+Follow the instructions in [`GETTING_STARTED`](GETTING_STARTED.md) to add a new dataset. 
 
 ## License
 
