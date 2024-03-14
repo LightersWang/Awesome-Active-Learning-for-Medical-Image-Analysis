@@ -64,6 +64,25 @@ Active learning literature survey
 
 
 ### IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)
+
+ActiveDC: Distribution Calibration for Active Finetuning  
+🕝 **[CVPR'24]** **[[PDF]](http://arxiv.org/abs/2311.07634)**
+
+Active Generalized Category Discovery  
+🕝 **[CVPR'24]** **[[PDF]](http://arxiv.org/abs/2403.04272)**
+
+Revisiting the Domain Shift and Sample Uncertainty in Multi-source Active Domain Transfer  
+🕝 **[CVPR'24]** **[[PDF]](http://arxiv.org/abs/2311.12905)**
+
+Active Prompt Learning in Vision Language Models  
+🕝 **[CVPR'24]** **[[PDF]](http://arxiv.org/abs/2311.11178)**
+
+Plug and Play Active Learning for Object Detection  
+🕝 **[CVPR'24]** **[[PDF]](http://arxiv.org/abs/2211.11612)**
+
+Think Twice Before Selection: Federated Evidential Active Learning for Medical Image Analysis with Domain Shifts  
+**[CVPR'24]** **[[PDF]](https://arxiv.org/abs/2312.02567)**
+
 Re-Thinking Federated Active Learning Based on Inter-Class Diversity  
 🕝 **[CVPR'23]** **[[PDF]](https://openaccess.thecvf.com/content/CVPR2023/papers/Kim_Re-Thinking_Federated_Active_Learning_Based_on_Inter-Class_Diversity_CVPR_2023_paper.pdf)** **[[Code]](https://github.com/raymin0223/LoGo)**
 
@@ -699,9 +718,6 @@ Density-Based One-Shot Active Learning for Image Segmentation
 
 
 ### arXiv
-Think Twice Before Selection: Federated Evidential Active Learning for Medical Image Analysis with Domain Shifts  
-**[arXiv 2023]** **[[PDF]](https://arxiv.org/abs/2312.02567)**
-
 Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals  
 **[arXiv 2023]** **[[PDF]](https://arxiv.org/pdf/2309.13401.pdf)** **[[Code]](https://github.com/whq-xxh/Active-GTV-Seg)**
 
