@@ -435,6 +435,9 @@ Deep Bayesian Active Learning with Image Data
 
 
 ### AAAI Conference on Artificial Intelligence (AAAI)
+Density Matters: Improved Core-Set for Active Domain Adaptive Segmentation  
+🕝 **[AAAI'24]** **[[PDF]](https://ojs.aaai.org/index.php/AAAI/article/view/29308)**
+
 EOAL: Entropic Open-set Active Learning  
 🕝 **[AAAI'24]** **[[PDF]](https://arxiv.org/abs/2312.14126)** **[[Code]](https://github.com/bardisafa/EOAL)**
 
