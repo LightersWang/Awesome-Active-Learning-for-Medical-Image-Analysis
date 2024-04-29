@@ -600,6 +600,11 @@ Biological data annotation via a human-augmenting AI-based labeling system
 **[npj Digital Medicine 2021]** **[[PDF]](https://www.nature.com/articles/s41746-021-00520-6)**  
 
 
+### Scientific Reports
+ARA: accurate, reliable and active histopathological image classification framework with Bayesian deep learning  
+🕝 **[Scientific Reports 2019]** **[[PDF]](https://www.nature.com/articles/s41598-019-50587-1)**  
+
+
 ### IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
 Multiple Instance Differentiation Learning for Active Object Detection  
 **[TPAMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10129096)** **[[Code]](https://github.com/WanFang13/MIDL)**
@@ -620,6 +625,12 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 
 ### Medical Image Analysis (MedIA)
+
+Active learning using adaptable task-based prioritisation  
+🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001063)**  
+
+Focused active learning for histopathological image classification  
+🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524000872)**  
 
 GANDALF: Graph-based transformer and Data Augmentation Active Learning Framework with interpretable features for multi-label chest Xray classification  
 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841523003353)**
@@ -762,5 +773,7 @@ Generative Adversarial Active Learning
 - [ ] Add author names
 
 - [ ] **[Ongoing]** Add newly published papers in 2023 (~~MICCAI~~, ~~CVPR~~, ~~ICCV~~, ~~NeurIPS~~, ICLR, ICML)
+
+- [ ] **[Ongoing]** Add newly published papers in 2024 (ICLR)
 
 - [ ] **[Ongoing]** Add related missing papers
