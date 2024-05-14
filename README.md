@@ -1,25 +1,27 @@
-# Awesome-Active-Learning-for-Medical-Image-Analysis
+# Awesome Active Learning for Medical Image Analysis
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2310.14230-b31b1b.svg)](https://arxiv.org/abs/2310.14230)
 
+**🎉🎉🎉 Our survey is accepted by Medical Image Analysis!**
 
-In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers published on top-tier journals or conferences.
+In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers of medical image analysis which were published on top-tier journals or conferences.
 
 Also, we provide the code to evaluate different active learning methods on multiple medical imaging datasets of classification or segmentation. Please refer to the `code` folder.
 
 This repo is mainly based on the following survey:  
-**[A comprehensive survey on deep active learning in medical image analysis](https://arxiv.org/abs/2310.14230)**  
+**A comprehensive survey on deep active learning in medical image analysis**  
 _Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_  
 _\* -- Corresponding Author_
+[Paper](https://www.sciencedirect.com/science/article/pii/S1361841524001269) | [arXiv](https://arxiv.org/abs/2310.14230)
 
 If you find this repo or this survey paper helpful, please consider citing:
 
 ```bibtex
-@article{wang2023comprehensive,
+@article{wang2024comprehensive,
       title={A comprehensive survey on deep active learning in medical image analysis},
       author={Wang, Haoran and Jin, Qiuye and Li, Shiman and Liu, Siyu and Wang, Manning and Song, Zhijian},
-      journal={arXiv preprint arXiv:2310.14230},
-      year={2023}
+      journal={Medical Image Analysis},
+      year={2024}
 }
 ```
 
@@ -30,13 +32,16 @@ Currently, I am actively updating this repo. Newly published papers and missing 
 We also welcome contributions to this repo for updating the paper list. Please submit a pull request if you want to contribute!
 
 
-## Papers
+## Paper List 
 
 > **[[PDF]]()** - PDF link  
 > **[[Code]]()** - official code link  
-> 🕝 - not (yet) cited in our survey paper  
+> 🕝 - not cited in our survey paper  
 
 ### Surveys
+
+A comprehensive survey on deep active learning in medical image analysis  
+**[2024 MedIA]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001269)**
 
 Label-efficient deep learning in medical image analysis: Challenges and future directions  
 **[2023 arXiv]** **[[PDF]](https://arxiv.org/pdf/2303.12484.pdf)**
@@ -625,6 +630,9 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 
 ### Medical Image Analysis (MedIA)
+
+Which images to label for few-shot medical image analysis?  
+🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001257)**  
 
 Active learning using adaptable task-based prioritisation  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001063)**  
