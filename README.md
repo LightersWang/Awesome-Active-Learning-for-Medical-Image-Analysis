@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2310.14230-b31b1b.svg)](https://arxiv.org/abs/2310.14230)
 
-**🎉🎉🎉 Our survey is accepted by Medical Image Analysis!**
+**🎉🎉🎉 Our survey is accepted by Medical Image Analysis (IF = 10.9) !**
 
 In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers of medical image analysis which were published on top-tier journals or conferences.
 
@@ -11,17 +11,19 @@ Also, we provide the code to evaluate different active learning methods on multi
 This repo is mainly based on the following survey:  
 **A comprehensive survey on deep active learning in medical image analysis**  
 _Haoran Wang, Qiuye Jin, Shiman Li, Siyu Liu, Manning Wang*, Zhijian Song*_  
-_\* -- Corresponding Author_
+_\* -- Corresponding Author_  
 [Paper](https://www.sciencedirect.com/science/article/pii/S1361841524001269) | [arXiv](https://arxiv.org/abs/2310.14230)
 
 If you find this repo or this survey paper helpful, please consider citing:
 
 ```bibtex
 @article{wang2024comprehensive,
-      title={A comprehensive survey on deep active learning in medical image analysis},
-      author={Wang, Haoran and Jin, Qiuye and Li, Shiman and Liu, Siyu and Wang, Manning and Song, Zhijian},
-      journal={Medical Image Analysis},
-      year={2024}
+  title={A comprehensive survey on deep active learning in medical image analysis},
+  author={Wang, Haoran and Jin, Qiuye and Li, Shiman and Liu, Siyu and Wang, Manning and Song, Zhijian},
+  journal={Medical Image Analysis},
+  pages={103201},
+  year={2024},
+  publisher={Elsevier}
 }
 ```
 
