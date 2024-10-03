@@ -18,9 +18,9 @@ Please see [`GETTING_STARTED`](GETTING_STARTED.md) for brief instructions on ins
 
 ## Medical Datasets Supported
 * [NCT-CRC-HE-100K](https://zenodo.org/records/1214456)
-* [ISIC 2020](http://yann.lecun.com/exdb/mnist/)
+* [ISIC 2020](https://challenge2020.isic-archive.com/)
 
-The data loading of ISIC dataset is slow due to its high resolution. We recommend to resize each image to 300x300 offline for faster speed. Therefore, the data dir of ISIC 2020 is renamed as `ISIC_2020_Training_JPEG_300x300`.
+The data loading of ISIC dataset is slow due to its high resolution. We recommend to resize each image to 300x300 offline for faster speed. Therefore, the data dir of ISIC 2020 is renamed as `ISIC_2020_Training_JPEG_300x300`. The resizing python script is `tools/isic2020_resize.py`.
 
 Place the two datasets as follow:
 ```
