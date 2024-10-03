@@ -633,13 +633,13 @@ Asymptotic analysis of objectives based on fisher information in active learning
 
 ### Medical Image Analysis (MedIA)
 
-ALFREDO: Active Learning with FeatuRe disEntangelement and DOmain adaptation for medical image classification
+ALFREDO: Active Learning with FeatuRe disEntangelement and DOmain adaptation for medical image classification  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001865)**  
 
-Reducing annotating load: Active learning with synthetic images in surgical instrument segmentation
+Reducing annotating load: Active learning with synthetic images in surgical instrument segmentation  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001713)**  
 
-Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity
+Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001257)**  
 
 Monai label: A framework for ai-assisted interactive labeling of 3d medical images  
