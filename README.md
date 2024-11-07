@@ -273,6 +273,39 @@ Joint semi-supervised and active learning for segmentation of gigapixel patholog
 
 
 ### European Conference on Computer Vision (ECCV)
+Learn from the Learnt: Source-Free Active Domain Adaptation via Contrastive Sampling and Visual Persistence  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/00073.pdf)**
+
+Bad Students Make Great Teachers: Active Learning Accelerates Large-Scale Visual Understanding  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/02596.pdf)**
+
+Bidirectional Uncertainty-Based Active Learning for Open-Set Annotation  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04026.pdf)**
+
+Active Coarse-to-Fine Segmentation of Moveable Parts from Real Images  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/04970.pdf)**
+
+Efficient Active Domain Adaptation for Semantic Segmentation by Selecting Information-rich Superpixels  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/05060.pdf)**
+
+Two-Stage Active Learning for Efficient Temporal Action Segmentation  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06348.pdf)**
+
+Active Generation for Image Classification  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/06459.pdf)**
+
+Dataset Quantization with Active Learning based Adaptive Sampling  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/07772.pdf)**
+
+MetaAT: Active Testing for Label-Efficient Evaluation of Dense Recognition Tasks  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/10062.pdf)**
+
+Generalized Coverage for More Robust Low-Budget Active Learning  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/11051.pdf)**
+
+Exploring Active Learning in Meta-Learning: Enhancing Context Set Labeling  
+🕝 **[ECCV'24]** **[[PDF]](https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/12574.pdf)**
+
 Optical Flow Training under Limited Label Budget via Active Learning  
 🕝 **[ECCV'22]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-20047-2_24)** **[[Code]](https://github.com/duke-vision/optical-flow-active-learning-release)**
 
