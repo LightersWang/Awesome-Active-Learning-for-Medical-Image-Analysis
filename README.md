@@ -503,6 +503,36 @@ Deep Active Learning with Adaptive Acquisition
 
 
 ### International Conference on Medical Image Computing and Computer Assisted Intervention (MICCAI)
+Active Label Refinement for Robust Training of Imbalanced Medical Image Classification Tasks in the Presence of High Label Noise  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/3963_paper.pdf)**
+
+Adaptive Curriculum Query Strategy for Active Learning in Medical Image Classification  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/1423_paper.pdf)**
+
+Advancing UWF-SLO Vessel Segmentation with Source-Free Active Domain Adaptation and a Novel Multi-Center Dataset  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/2030_paper.pdf)**
+
+An Uncertainty-guided Tiered Self-training Framework for Active Source-free Domain Adaptation in Prostate Segmentation  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/1781_paper.pdf)**
+
+Class-Balancing Deep Active Learning with Auto-Feature Mixing and Minority Push-Pull Sampling  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/2541_paper.pdf)**
+
+Few Slices Suffice: Multi-Faceted Consistency Learning with Active Cross-Annotation for Barely-supervised 3D Medical Image Segmentation  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/0102_paper.pdf)**
+
+FM-ABS: Promptable Foundation Model Drives Active Barely Supervised Learning for 3D Medical Image Segmentation  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/0050_paper.pdf)**
+
+OSAL-ND: Open-set Active Learning for Nucleus Detection  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/0661_paper.pdf)**
+
+SBC-AL: Structure and Boundary Consistency-based Active Learning for Medical Image Segmentation  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/3047_paper.pdf)**
+
+The MRI Scanner as a Diagnostic: Image-less Active Sampling  
+🕝 **[MICCAI'24]** **[[PDF]](https://papers.miccai.org/miccai-2024/paper/2052_paper.pdf)**
+
 SLPT: Selective Labeling Meets Prompt Tuning on Label-Limited Lesion Segmentation  
 **[MICCAI'23]** **[[PDF]](https://link.springer.com/chapter/10.1007/978-3-031-43895-0_2)**
 
@@ -675,7 +705,7 @@ Reducing annotating load: Active learning with synthetic images in surgical inst
 Deep Bayesian active learning-to-rank with relative annotation for estimation of ulcerative colitis severity  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001257)**  
 
-Monai label: A framework for ai-assisted interactive labeling of 3d medical images  
+MONAI label: A framework for ai-assisted interactive labeling of 3d medical images  
 🕝 **[MedIA 2024]** **[[PDF]](https://www.sciencedirect.com/science/article/pii/S1361841524001324)**  
 
 Active learning using adaptable task-based prioritisation  
