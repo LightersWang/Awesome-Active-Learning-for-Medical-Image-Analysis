@@ -743,6 +743,9 @@ Active, Continual Fine Tuning of Convolutional Neural Networks for Reducing Anno
 
 
 ### IEEE Transactions on Medical Imaging (TMI)
+Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals  
+**[TMI 2024]** **[[PDF]](https://arxiv.org/pdf/2309.13401.pdf)** **[[Code]](https://github.com/whq-xxh/Active-GTV-Seg)**
+
 Learning from Incorrectness: Active Learning with Negative Pre-training and Curriculum Querying for Histological Tissue Classification  
 **[TMI 2023]** **[[PDF]](https://ieeexplore.ieee.org/abstract/document/10244066)** **[[Code]](https://github.com/LactorHwt/ICAL)**
 
@@ -814,8 +817,6 @@ Density-Based One-Shot Active Learning for Image Segmentation
 
 
 ### arXiv
-Dual-Reference Source-Free Active Domain Adaptation for Nasopharyngeal Carcinoma Tumor Segmentation across Multiple Hospitals  
-**[arXiv 2023]** **[[PDF]](https://arxiv.org/pdf/2309.13401.pdf)** **[[Code]](https://github.com/whq-xxh/Active-GTV-Seg)**
 
 Active Self-Training for Weakly Supervised 3D Scene Semantic Segmentation  
 **[arXiv 2022]** **[[PDF]](https://arxiv.org/pdf/2209.07069.pdf)** **[[Code]](https://github.com/GengxinLiu/ActiveST)**
