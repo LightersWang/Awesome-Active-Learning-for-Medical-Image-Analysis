@@ -1,6 +1,5 @@
 from dataloader.acdc import ACDC
 from dataloader.active_dataset import ActiveDataset
-from dataloader.region_active_dataset import RegionActiveDataset
 
 
 dataset_dict = {
