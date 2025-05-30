@@ -74,8 +74,8 @@ def get_args(mode):
                             help='datalist path of the inital labeled pool')
         parser.add_argument('--init_checkpoint', type=str, default=None,
                             help='Load init checkpoint file to skip the initial iteration.')
-        parser.add_argument('--coreset_distance', type=str, default='euclidean', choices=['euclidean', 'cosine'],
-                            help='Distance metircs for Core-Set.')
+        parser.add_argument('--distance', type=str, default='euclidean', choices=['euclidean', 'cosine'],
+                            help='Distance metircs for Core-Set and RA.')
 
     args = parser.parse_args()
     args.mode = mode
@@ -84,7 +84,7 @@ def get_args(mode):
 
     time_stamp = time.strftime('%m%d_%H%M%S', time.localtime())
     if 'active' in mode:
-        exp_name.append(args.active_method)
+        exp_name.extend([args.active_method])
         if args.exp_comment is not None:
             exp_name.append(args.exp_comment)
         exp_name = '_'.join(exp_name)

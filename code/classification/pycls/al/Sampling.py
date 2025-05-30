@@ -10,6 +10,8 @@ import numpy as np
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
+from sklearn.cluster import AgglomerativeClustering
+from .ra_util import max_cover_query_step2, max_cover_query_step3
 
 class EntropyLoss(nn.Module):
     """
@@ -27,6 +29,125 @@ class EntropyLoss(nn.Module):
             entropy = x * torch.log2(x)
         entropy = -1*entropy.sum(dim=1)
         return entropy 
+
+
+class RASampling():
+    def __init__(self, cfg, dataObj):
+        self.dataObj = dataObj
+        self.cuda_id = torch.cuda.current_device()
+        self.cfg = cfg
+
+    @torch.no_grad()
+    def get_representation(self, clf_model, idx_set, dataset):
+
+        clf_model.cuda(self.cuda_id)
+        
+        tempIdxSetLoader = self.dataObj.getSequentialDataLoader(indexes=idx_set, batch_size=int(self.cfg.TEST.BATCH_SIZE/self.cfg.NUM_GPUS), data=dataset)
+        features = []
+        
+        print(f"len(dataLoader): {len(tempIdxSetLoader)}")
+
+        for i, (x, _) in enumerate(tqdm(tempIdxSetLoader, desc="Extracting Representations")):
+            with torch.no_grad():
+                x = x.cuda(self.cuda_id)
+                x = x.type(torch.cuda.FloatTensor)
+                temp_z, _ = clf_model(x)
+                features.append(temp_z.cpu().numpy())
+
+        features = np.concatenate(features, axis=0)
+        return features
+
+    def gpu_compute_dists(self, M1:torch.Tensor, M2:torch.Tensor):
+        """
+        Computes L2 norm square on gpu
+        Assume 
+        M1: M x D matrix
+        M2: N x D matrix
+
+        output: M x N matrix
+        """
+        #print(f"Function call to gpu_compute dists; M1: {M1.shape} and M2: {M2.shape}")
+        if self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE == 'L2':
+            M1_norm = (M1**2).sum(1).reshape(-1,1)
+            M2_t = torch.transpose(M2, 0, 1)
+            M2_norm = (M2**2).sum(1).reshape(1,-1)
+            dists = M1_norm + M2_norm - 2.0 * torch.mm(M1, M2_t)
+        elif self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE == 'cosine':
+            M1_norm = M1.norm(p=2, dim=1, keepdim=True)
+            M2_norm = M2.norm(p=2, dim=1, keepdim=True)
+            dot_product = torch.mm(M1, M2.t())
+            cosine_similarity = dot_product / (torch.mm(M1_norm, M2_norm.t()) + 1e-8) # 加上一个小的常数防止除以0
+            dists = 1 - cosine_similarity
+        else:
+            raise NotImplementedError(self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE)
+
+        return dists
+    
+    def representative_annotation(self, n_data, n_query, feature, n_clusters=3, candidate_thresh=0.9):
+        if int(candidate_thresh * n_data) < n_query:
+            raise ValueError(f"candidate_thresh is too small ({candidate_thresh})")
+        
+        # Step 0: Calculate cosine similarity or 1 - L2 distance
+        feature_tensor = torch.from_numpy(feature).cuda(self.cuda_id)
+        dists = self.gpu_compute_dists(feature_tensor, feature_tensor)
+        if self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE == 'L2':
+            sims = 1 / (1e-8 + dists)
+        elif self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE == 'cosine':
+            sims = 1 - dists
+        else:
+            raise NotImplementedError(self.cfg.ACTIVE_LEARNING.CORESET_DISTANCE)
+
+        # Step 1: Agglomerative Clustering
+        agglo_cluster_label = AgglomerativeClustering(n_clusters=n_clusters).fit_predict(feature)
+
+        # Step 2: max-cover to form candidate set
+        candidate_indices = np.zeros((n_data, ), dtype=np.bool8)
+        for cluster_label in np.unique(agglo_cluster_label):
+            cluster_indices = (agglo_cluster_label == cluster_label)
+
+            cluster_sample_indices = max_cover_query_step2(
+                n_data=n_data,
+                candidate_thresh=candidate_thresh,
+                all_indices=cluster_indices,
+                cosine_dist=sims.cpu().numpy()
+            )
+
+            candidate_indices = candidate_indices | cluster_sample_indices
+
+        # print(candidate_indices.sum())
+
+        # Step 3: max-cover to final sampling result
+        ra_indices = max_cover_query_step3(
+            n_data=n_data,
+            n_query=n_query,
+            all_indices=candidate_indices,
+            cosine_dist=sims.cpu().numpy()
+        )
+
+        return np.nonzero(ra_indices)[0], np.nonzero(~ra_indices)[0]
+
+    def query(self, lSet, uSet, clf_model, dataset):
+
+        assert clf_model.training == False, "Classification model expected in training mode"
+        assert clf_model.penultimate_active == True,"Classification model is expected in penultimate mode"    
+        
+        print("Extracting Uset Representations")
+        ul_repr = self.get_representation(clf_model=clf_model, idx_set=uSet, dataset=dataset)
+        print("ul_repr.shape: ",ul_repr.shape)
+        
+        # print("Solving K Center Greedy Approach")
+        start = time.time()
+        greedy_indexes, remainSet = self.representative_annotation(
+            n_data=ul_repr.shape[0], 
+            n_query=self.cfg.ACTIVE_LEARNING.BUDGET_SIZE, 
+            feature=ul_repr
+        )
+        end = time.time()
+        print("Time taken to solve Max Cover: {} seconds".format(end-start))
+        activeSet = uSet[greedy_indexes]
+        remainSet = uSet[remainSet]
+
+        return activeSet, remainSet
 
 
 class CoreSetMIPSampling():
@@ -193,6 +314,7 @@ class CoreSetMIPSampling():
         else:
             print("Solving K Center Greedy Approach")
             start = time.time()
+            # greedy_indexes: list, remainSet: np.ndarray
             greedy_indexes, remainSet = self.greedy_k_center(labeled=lb_repr, unlabeled=ul_repr)
             # greedy_indexes, remainSet = self.optimal_greedy_k_center(labeled=lb_repr, unlabeled=ul_repr)
             end = time.time()

@@ -2,8 +2,9 @@
 # GitHub: https://github.com/PrateekMunjal
 # ----------------------------------------------------------
 
+import numpy as np 
 import pycls.utils.logging as lu
-from .Sampling import Sampling, CoreSetMIPSampling
+from .Sampling import Sampling, CoreSetMIPSampling, AdversarySampler, RASampling
 
 logger = lu.get_logger(__name__)
 
@@ -70,6 +71,18 @@ class ActiveLearning:
             clf_model.eval()
             coreSetSampler = CoreSetMIPSampling(cfg=self.cfg, dataObj=self.dataObj)
             activeSet, uSet = coreSetSampler.query(
+                lSet=lSet, uSet=uSet, clf_model=clf_model, dataset=trainDataset)
+            
+            clf_model.penultimate_active = waslatent
+            clf_model.train(wastrain)
+
+        elif self.cfg.ACTIVE_LEARNING.SAMPLING_FN in ["ra", "ra_L2", "ra_cosine"]:
+            waslatent = clf_model.penultimate_active
+            wastrain = clf_model.training
+            clf_model.penultimate_active = True
+            clf_model.eval()
+            raSampler = RASampling(cfg=self.cfg, dataObj=self.dataObj)
+            activeSet, uSet = raSampler.query(
                 lSet=lSet, uSet=uSet, clf_model=clf_model, dataset=trainDataset)
             
             clf_model.penultimate_active = waslatent
