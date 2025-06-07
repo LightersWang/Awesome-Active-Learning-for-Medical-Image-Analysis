@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![arXiv](https://img.shields.io/badge/arXiv-2310.14230-b31b1b.svg)](https://arxiv.org/abs/2310.14230)
 
-**🎉🎉🎉 Our survey is accepted by Medical Image Analysis (IF = 10.9) !**
+**🎉🎉🎉 Our survey is accepted by Medical Image Analysis (IF = 10.7) !**
 
 In this repo, we provide a paper list of active learning in the fields of medical image analysis and computer vision. We focus on active learning papers of medical image analysis which were published on top-tier journals or conferences.
 
@@ -27,7 +27,7 @@ If you find this repo or this survey paper helpful, please consider citing:
 }
 ```
 
-Currently, I am actively updating this repo. Newly published papers and missing papers of related topics will be added. **Please star us if you find this repo helpful ⭐**
+**Please star us if you find this repo helpful ⭐**
 
 **If you have any questions or suggestions, or if you think your paper fits our framework and should be added in the survey, feel free to contact me through e-mail (hrwang20@fudan.edu.cn) or create an issue in this repo.**
 
